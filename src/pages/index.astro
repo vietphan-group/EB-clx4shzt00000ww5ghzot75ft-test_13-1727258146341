@@ -1,0 +1,27 @@
+---
+import Seo from "../components/Seo.astro";
+import { Image } from "astro:assets";
+import imgimages_gii_logo_webp from "../../public/images/gii_logo.webp";
+---
+
+<html lang="en">
+	<head>
+		<Seo seo={{ title: "Viet Phan", description: "Viet Phan Description", keywords: "test", canonical: "/", image: '/images/1727254788050_Screen-Shot-2024-09-24-at-11.31.43.png', type: "web", themeColor: "#ffffff"}} />
+		<meta charset="utf-8" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/favicon.svg"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width"
+		/>
+		<meta
+			name="generator"
+			content={Astro.generator}
+		/>
+		<title>Astro</title>
+	</head>
+	<body> <header class="flex flex-col relative shrink-0 box-border h-auto empty:min-h-[30vh] before:content-[&#x27;Header&#x27;] before:absolute before:top-0 before:left-0 before:inline-block before:py-1 before:px-2 before:bg-black/20 before:text-white before:text-sm before:rounded before:!rounded-tl-none before:!rounded-bl-none mb-[1px] header-section"><div class="header-component w-full bg-slate-800 px-20 py-6 shadow-[0px_4px_16px_rgba(0,0,0,0.08)]"><section class="max-md:px-5 max-md:max-w-full flex min-h-[147px]"><div class="flex flex-wrap items-center justify-between gap-10 max-w-screen-2xl w-full mx-auto"><Image alt="Company logo" src={imgimages_gii_logo_webp} width="400" height="300" class="my-auto aspect-[1.01] w-[104px] shrink-0 self-stretch object-contain" /><nav class="max-md:max-w-full my-auto flex min-w-[240px] flex-wrap items-end gap-10 self-stretch text-base text-white"><a href="#" class="">Concept</a><a href="#" class="">Solution</a><a href="#" class="">Numérique Responsable</a><a href="#" class="">Blog</a><a href="#" class="uppercase">MADE BY GREENWEB</a></nav><button class="max-md:px-5 my-auto min-w-[240px] gap-2.5 self-stretch overflow-hidden rounded-md bg-lime-500 px-12 py-2.5 text-xl font-semibold leading-snug text-slate-800">Réserver une démo</button></div></section></div></header><main class="flex flex-col relative shrink-0 box-border h-auto empty:min-h-[30vh] before:content-[&#x27;Main&#x27;] before:absolute before:top-0 before:left-0 before:inline-block before:py-1 before:px-2 before:bg-black/20 before:text-white before:text-sm before:rounded before:!rounded-tl-none before:!rounded-bl-none mb-[1px] main-section"></main><footer class="flex flex-col relative shrink-0 box-border h-auto empty:min-h-[30vh] before:content-[&#x27;Footer&#x27;] before:absolute before:top-0 before:left-0 before:inline-block before:py-1 before:px-2 before:bg-black/20 before:text-white before:text-sm before:rounded before:!rounded-tl-none before:!rounded-bl-none mb-[1px] footer-section"></footer> </body>
+</html>
